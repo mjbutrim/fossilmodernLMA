@@ -1,0 +1,313 @@
+,Database,Site,Lat,Lon,Alt,Set
+1,BRIDGE,Acarouany,5.54415,-53.8132,148,Modern
+2,BRIDGE,BAFOG,5.49414,-53.9872,57,Modern
+3,BRIDGE,Montagne Tortue,4.21905,-52.4116,16,Modern
+4,BRIDGE,Nouragues-11L,4.08333,-52.6833,27,Modern
+5,BRIDGE,Nouragues-20H,4.08333,-52.6833,27,Modern
+6,BRIDGE,Paracou-06,5.27225,-52.926,78,Modern
+7,BRIDGE,Paracou-18,5.27225,-52.926,78,Modern
+8,BRIDGE,Saut Lavilette,4.15093,-52.2036,187,Modern
+9,BRIDGE,Tresor,4.56722,-52.2864,60,Modern
+10,DiLP,"Alamos, MX",27.1,-109,NA,Modern
+11,DiLP,"Archbold, FL",27.2,-81.4,NA,Modern
+12,DiLP,"Bandon, OR",43.1,-124.4,NA,Modern
+13,DiLP,BCI,9.2,-79.9,NA,Modern
+14,DiLP,"Big Hammock WMA, GA",31.9,-82.1,NA,Modern
+15,DiLP,Borinquen,18,-66.9,NA,Modern
+16,DiLP,"Buena Vista, Puerto Rico",18.3,-67,NA,Modern
+17,DiLP,"Cabo Rojo, Puerto Rico",17.9,-67.2,NA,Modern
+18,DiLP,"Cabo San Lucas,Baja Mexico",22.883,-109.883,NA,Modern
+19,DiLP,"Cape Blanco, OR",42.8,-124.5,NA,Modern
+20,DiLP,"Childs, AZ",34.3,-111.7,NA,Modern
+21,DiLP,"Chuzenji-ko, Japan",39.1,140.4,NA,Modern
+22,DiLP,"Clearwater, WA",47.6,-124.3,NA,Modern
+23,DiLP,"Cockaponset, CT",41.4,-72.5,NA,Modern
+24,DiLP,Cordillera Pelada (0-400 m),-40.2,-73.3,200,Modern
+25,DiLP,"Dilcher's Woods, lowland, FL",29.6,-82.2,NA,Modern
+26,DiLP,"Dilcher's Woods, upland, FL",29.6,-82.2,NA,Modern
+27,DiLP,"Duke Forest, NC",36,-78.9,NA,Modern
+28,DiLP,Empalme,27.3,-109.4,NA,Modern
+29,DiLP,"Florida Panther Refuge, FL",26.2,-81.3,NA,Modern
+30,DiLP,"Foxton Estuary, New Zealand",-40.5,175.2,NA,Modern
+31,DiLP,"Gouland Downs, New Zealand",-40.9,172.4,NA,Modern
+32,DiLP,"Government Camp, OR",45.3,-121.7,NA,Modern
+33,DiLP,"Guajataca, PR",18.2,-66.9,NA,Modern
+34,DiLP,Guanica,17.9,-66.9,NA,Modern
+35,DiLP,Half Moon Bay,37.4,-122.4,NA,Modern
+36,DiLP,"Harvard Forest, MA",42.5,-72.2,NA,Modern
+37,DiLP,"Hawk Mountain, PA",40.6,-75.9,NA,Modern
+38,DiLP,"Homer, AK",59.6,-151.5,NA,Modern
+39,DiLP,"Hood River, OR",45.7,-121.5,NA,Modern
+40,DiLP,"Hubbard Brook, NH",43.9,-71.8,NA,Modern
+41,DiLP,"Huyck Preserve, NY",42.7,-74.5,NA,Modern
+42,DiLP,"Kaimanawa Mountains, New Zealand",-39.3,175.9,NA,Modern
+43,DiLP,"Keka, Fiji",-16.8,179,NA,Modern
+44,DiLP,Kepong,3.1,101.6,NA,Modern
+45,DiLP,"Ketchikan, AK",55.3,-131.6,NA,Modern
+46,DiLP,Los Queles (400-500m),-36,-72.7,450,Modern
+47,DiLP,"Millbrook/IES, NY",41.8,-73.8,NA,Modern
+48,DiLP,Monte Guilarte,18.2,-66.8,NA,Modern
+49,DiLP,"Nagakubo, Japan",30.3,131.3,NA,Modern
+50,DiLP,"Natua, Fiji",-16.7,179,NA,Modern
+51,DiLP,"Nestucca River, OR",45,-124,NA,Modern
+52,DiLP,"North Bend, OR",43.4,-124.2,NA,Modern
+53,DiLP,"Nuri, Sonora",28.0333,-109.4,NA,Modern
+54,DiLP,"Parkdale, OR",45.5,-121.6,NA,Modern
+55,DiLP,Pasoh,2.9,102.3,NA,Modern
+56,DiLP,"Pee Dee, SC",34.2,-79.4,NA,Modern
+57,DiLP,"Placerville, CA",38.8,-120.8,NA,Modern
+58,DiLP,"Portal,AZ",31.9,-109.2,NA,Modern
+59,DiLP,"Powers, OR",42.9,-124.1,NA,Modern
+60,DiLP,"Red Fleet, UT",40.5,-109.3,NA,Modern
+61,DiLP,"Republic, WA",48,-117.9,NA,Modern
+62,DiLP,"River site, CT",41.5,-72.5,NA,Modern
+63,DiLP,Robinson Fall,4.4,101.4,NA,Modern
+64,DiLP,San Bartolo,23.7,-109.9,NA,Modern
+65,DiLP,"Santa Cruz, CA",37,-121.9,NA,Modern
+66,DiLP,"Seqaqa, Fiji",-16.6,179.1,NA,Modern
+67,DiLP,"SERC, MD",38.5,-76.3,NA,Modern
+68,DiLP,"Suganuma, Honshu, Japan",36.8,139.4,NA,Modern
+69,DiLP,"Swamp site, CT",41.52,-72.5,NA,Modern
+70,DiLP,Talkeetna,62.3,-150.2,NA,Modern
+71,DiLP,Tangun Tuan,2.4,101.9,NA,Modern
+72,DiLP,"Three Lynx, OR",45.1,-122.1,NA,Modern
+73,DiLP,"Toro Negro, Puerto Rico",18.2,-66.7,NA,Modern
+74,DiLP,"Upland site, CT",41.51,-72.5,NA,Modern
+75,DiLP,"Wolf Creek, CO",44.3,-119.1,NA,Modern
+76,DiLP,"Yakasugi, Japan (1350m)",30.3,130.6,1350,Modern
+77,DiLP,"Yakusugi, Japan (260m)",30.3,130.6,260,Modern
+78,DiLP,"Yakusugi, Japan (800m)",30.3,130.6,800,Modern
+79,DiLP,"Yakusugi, Japana (1080m)",30.3,130.6,1080,Modern
+80,Floridian Leaf Traits Database,Cedar Key,29.2,-82.99,NA,Modern
+81,Floridian Leaf Traits Database,Morningside,29.65,-82.27,NA,Modern
+82,Floridian Leaf Traits Database,San Felasco,29.71,-82.45,NA,Modern
+83,GLOPNET,Ackerly_Jasper,37.4,-122.25,150,Modern
+84,GLOPNET,Baruch&Goldstein_Hawaii_High_Old,20,-155.5,2000,Modern
+85,GLOPNET,Bassow&Bazzaz_PETERSHAM__MA,42.53,-72.18,340,Modern
+86,GLOPNET,Bongers_et_al_Los_Tuxtlas,18,-93.5,340,Modern
+87,GLOPNET,Chapin_etc_Toolik_Lake,67.5,-152.5,760,Modern
+88,GLOPNET,Christodoulakis_Malakasa,37.97,23.7,400,Modern
+89,GLOPNET,Cornelissen_UK_Sheffield,53.4,-1.5,100,Modern
+90,GLOPNET,Garnier_etal_F/CR,43.63,3.87,63,Modern
+91,GLOPNET,Garnier_etal_Les_Agros,43.42,6.58,425,Modern
+92,GLOPNET,Garnier_etal_SM/C,43.72,3.37,285,Modern
+93,GLOPNET,Gulias_S ller,40,4,40,Modern
+94,GLOPNET,Gulias_UIB,39,1.3,130,Modern
+95,GLOPNET,Koike_SAPPORO__JAPAN,43,141.6,100,Modern
+96,GLOPNET,Kudo_Cornelissen_Abisko,68,19.5,400,Modern
+97,GLOPNET,Kudo_Cornelissen_Latnjajaure,69,18,900,Modern
+98,GLOPNET,Lal_etal_Inceptisol,25.3,83.02,76,Modern
+99,GLOPNET,Lal_etal_Ultisol,26.5,83,355,Modern
+100,GLOPNET,Lee_NZ_Murchison_Mtns,-45.28,168,1150,Modern
+101,GLOPNET,Lusk-adults_Puyehue,-39.8,-73,400,Modern
+102,GLOPNET,Marin_Medina_Piritu_Venezuela,10.5,-65.5,43,Modern
+103,GLOPNET,MidgelySA_Amatolas,-32.5,27.17,1000,Modern
+104,GLOPNET,MidgelySA_Dukuduku,-32,28.5,50,Modern
+105,GLOPNET,MidgelySA_Mapelane,-32,28.5,100,Modern
+106,GLOPNET,MidgelySA_Sand_Forest,-32.5,27.5,100,Modern
+107,GLOPNET,MidgelySA_Umtiza,-33.03,27.78,200,Modern
+108,GLOPNET,MitchellNC_Coweeta,35.05,-83.42,850,Modern
+109,GLOPNET,Niinemets_Kull94_Estonia_3,58.58,23.56,20,Modern
+110,GLOPNET,Niinemets_Kull94_Estonia_19,58.42,26.51,20,Modern
+111,GLOPNET,Olivares_Caracas_Venezuela,10.5,-66.88,915,Modern
+112,GLOPNET,Osada_Thomas_Pasoh,2.98,102.3,100,Modern
+113,GLOPNET,Prado&DeMoraes1997_SAO_CARLOS,-22,-47.9,710,Modern
+114,GLOPNET,Reichetal_Venezuela,1.93,-67.05,120,Modern
+115,GLOPNET,Reichetal_Wisconsin,42.5,-90,275,Modern
+116,GLOPNET,Ricklefs_SE_Ontario,44.57,-76.32,167,Modern
+117,GLOPNET,Schulze_Kapalga,-12.68,132.38,10,Modern
+118,GLOPNET,Schulze_Katherine,-14.3,132.08,103,Modern
+119,GLOPNET,Small1972_OTTAWA,45.32,-75.59,116,Modern
+120,GLOPNET,Sobrado&Medina_SanCarlos_bana,1.93,-67.05,120,Modern
+121,GLOPNET,Veneklaas_W_Australia,-31.5,115.5,15,Modern
+122,GLOPNET,Villar_Andaluc a_mesic,37,-6,8,Modern
+123,GLOPNET,Villar_Andaluc a_xeric,37,-6,8,Modern
+124,GLOPNET,Villar_California_forest,36.5,-122,150,Modern
+125,GLOPNET,Villar_Canary_Is_lauriphyll,28,-17,16.2,Modern
+126,GLOPNET,Villar_Canary_Is_xeric,28,-17,16.2,Modern
+127,GLOPNET,Wright_Oz_syd_hiP,-33.86,151.21,39,Modern
+128,GLOPNET,Wright_Oz_syd_loP,-33.86,151.21,39,Modern
+129,GLOPNET,Wright_Oz_wnsw_hiP,-33.84,145.88,223,Modern
+130,GLOPNET,Wright_Oz_wnsw_loP,-33.84,145.88,223,Modern
+131,Hawaiian Leaf Traits Database,Hahaione Valley,21.31,-157.79,380,Modern
+132,Hawaiian Leaf Traits Database,St Louis Heights,21.31,-157.79,175,Modern
+133,Hawaiian Leaf Traits Database,Tantalus,21.31,-157.79,430,Modern
+134,Hawaiian Leaf Traits Database,Wiliwilinui,21.31,-157.79,670,Modern
+135,Neotropical Plant Traits Database,"Barro Colorado Island, Panama",9.166667,-80.41667,NA,Modern
+136,Neotropical Plant Traits Database,"Fort Sherman canopy crane, Panama (Atlantic Coast)",9.283333333,-79.96666667,NA,Modern
+137,Neotropical Plant Traits Database,"Parque Natural Metropolitano canopy crane, Panama (Pacific Coast)",8.983333333,-79.55,NA,Modern
+138,Panama Traits Database,BCIBALA CINCO,9.166666667,-79.85,140,Modern
+139,Panama Traits Database,BCIBALA DOS,9.166666667,-79.85,140,Modern
+140,Panama Traits Database,BCIBALA OCHO,9.166666667,-79.85,140,Modern
+141,Panama Traits Database,BCIBALA SEIS,9.166666667,-79.85,140,Modern
+142,Panama Traits Database,BCIBALA SIETE,9.166666667,-79.85,140,Modern
+143,Panama Traits Database,BCIBALA UNO,9.166666667,-79.85,140,Modern
+144,Panama Traits Database,SANLOBALA DOS,9.283333333,-79.96666667,140,Modern
+145,Panama Traits Database,SANLOBALA QUATRO,9.283333333,-79.96666667,140,Modern
+146,Panama Traits Database,SANLOBALA TRES,9.283333333,-79.96666667,140,Modern
+147,Panama Traits Database,SANLOBALA UNO,9.283333333,-79.96666667,140,Modern
+148,Panama Traits Database,SANLOESTE,9.283333333,-79.96666667,140,Modern
+149,Panama Traits Database,SANLOOESTE,9.283333333,-79.96666667,140,Modern
+150,Panama Traits Database,SANLOSUR,9.283333333,-79.96666667,140,Modern
+151,RAINFOR Database,AGP-01,-3.74099,-70.30551,111,Modern
+152,RAINFOR Database,AGP-02,-3.74124,-70.30251,111,Modern
+153,RAINFOR Database,ALP-11,-3.94943,-73.43411,137,Modern
+154,RAINFOR Database,ALP-22,-3.95126,-73.43894,126,Modern
+155,RAINFOR Database,ALP-30,-3.95437,-73.42577,134,Modern
+156,RAINFOR Database,BNT-04,-2.6275,-60.15306,103,Modern
+157,RAINFOR Database,BOG-01,-0.69852,-76.48218,310,Modern
+158,RAINFOR Database,BOG-02,-0.69792,-76.4738,278,Modern
+159,RAINFOR Database,CAX-01,-1.73673,-51.46291,45,Modern
+160,RAINFOR Database,CAX-02,-1.73571,-51.46198,45,Modern
+161,RAINFOR Database,CHO-01,-14.38556,-61.14778,202,Modern
+162,RAINFOR Database,CPP-01,-2.19,-47.33,66,Modern
+163,RAINFOR Database,CUZ-03,-12.49967,-68.96296,198,Modern
+164,RAINFOR Database,HCC-21,-14.56083,-60.74861,799,Modern
+165,RAINFOR Database,HCC-22,-14.5675,-60.74778,744,Modern
+166,RAINFOR Database,JAC-01,-2.606944444,-60.20888889,63,Modern
+167,RAINFOR Database,JAS-02,-1.06833,-77.61528,422,Modern
+168,RAINFOR Database,JAS-03,-1.0775,-77.6095,431,Modern
+169,RAINFOR Database,JAS-04,-1.07353,-77.61222,422,Modern
+170,RAINFOR Database,JAS-05,-1.06167,-77.62167,396,Modern
+171,RAINFOR Database,JRI-01,-0.89444,-52.19028,112,Modern
+172,RAINFOR Database,JUR-01,-8.88395,-72.78992,248,Modern
+173,RAINFOR Database,LFB-01,-14.55669,-60.92789,195,Modern
+174,RAINFOR Database,LFB-02,-14.57719,-60.83178,238,Modern
+175,RAINFOR Database,LOR-01,-3.05624,-69.99071,85,Modern
+176,RAINFOR Database,LSL-01,-14.40814,-61.14027,186,Modern
+177,RAINFOR Database,MBO-01,-1.45,-48.45,6,Modern
+178,RAINFOR Database,RES-02,-9.04,-72.27,274,Modern
+179,RAINFOR Database,RES-05,-10.5664,-68.31148,205,Modern
+180,RAINFOR Database,RES-06,-10.55611,-68.30103,208,Modern
+181,RAINFOR Database,SCR-04,1.93,-67.04,104,Modern
+182,RAINFOR Database,SCR-05,1.93,-67.03828,104,Modern
+183,RAINFOR Database,SUC-01,-3.25211,-72.90744,128,Modern
+184,RAINFOR Database,SUC-02,-3.25114,-72.90359,128,Modern
+185,RAINFOR Database,SUC-03,-3.25,-72.93,107,Modern
+186,RAINFOR Database,SUM-01,-1.75,-77.63,1200,Modern
+187,RAINFOR Database,TAM-01,-12.84411,-69.28838,210,Modern
+188,RAINFOR Database,TAM-02,-12.83475,-69.28608,212,Modern
+189,RAINFOR Database,TAM-04,-12.83647,-69.27829,211,Modern
+190,RAINFOR Database,TAM-05,-12.83029,-69.27053,219,Modern
+191,RAINFOR Database,TAM-06,-12.8385,-69.29601,199,Modern
+192,RAINFOR Database,TAM-07,-12.82568,-69.26103,223,Modern
+193,RAINFOR Database,TAP-04,-2.851111111,-54.95472222,198,Modern
+194,RAINFOR Database,TIP-03,-0.63888,-76.15462,219,Modern
+195,RAINFOR Database,TIP-05,-0.637783333,-76.14358333,230,Modern
+196,RAINFOR Database,YAN-01,-3.43955,-72.84581,116,Modern
+197,Smithsonian Conservation Biology Institute,"Smithsonian Conservation Biology Institute-ForestGEO Forest Dynamic Plot. Front Royal, Virginia. USA",38.8935,-78.1454,302,Modern
+198,The China Plant Trait Database,Ailaoshan Dwarf,24.53617778,101.0310278,2637,Modern
+199,The China Plant Trait Database,Ailaoshan Flux,24.54116944,101.0272444,2394,Modern
+200,The China Plant Trait Database,Ailaoshan Mid,24.50262222,100.9912944,2056,Modern
+201,The China Plant Trait Database,Ansai_2005,36.76666667,109.25,1125,Modern
+202,The China Plant Trait Database,Changbai 1,42.31773167,128.1216583,885,Modern
+203,The China Plant Trait Database,Changbai 15,42.22755833,128.0777833,1034,Modern
+204,The China Plant Trait Database,Changbai 15b,42.178285,128.1332383,1164,Modern
+205,The China Plant Trait Database,Changbai 6,42.28385333,128.0992067,946,Modern
+206,The China Plant Trait Database,Fuxian_2005,36.06666667,108.5333333,1353,Modern
+207,The China Plant Trait Database,Long Ling 1,21.6163,101.5800167,1034,Modern
+208,The China Plant Trait Database,Longwangshan,32.06666,118.8166667,130,Modern
+209,The China Plant Trait Database,Mandan Shrub,23.68958083,101.8547822,758,Modern
+210,The China Plant Trait Database,Mandan Wood,23.69150556,101.8563389,772,Modern
+211,The China Plant Trait Database,Mengla 1 Rainforest,21.61189167,101.5823833,668,Modern
+212,The China Plant Trait Database,Mengla 2 Midslope,21.61630556,101.5799778,828,Modern
+213,The China Plant Trait Database,Mizhi_2005,37.85,110.1666667,1103,Modern
+214,The China Plant Trait Database,Mohe Flux,53.46833333,122.3441667,290,Modern
+215,The China Plant Trait Database,Mohe Ghost-train,53.46176944,122.344425,325,Modern
+216,The China Plant Trait Database,NECTS03,43.02191667,129.7754,136,Modern
+217,The China Plant Trait Database,NECTS05,43.29623333,131.1477833,289,Modern
+218,The China Plant Trait Database,NECTS06,43.11755,130.9981167,244,Modern
+219,The China Plant Trait Database,NECTS07,43.38531667,129.66985,224,Modern
+220,The China Plant Trait Database,NECTS08,43.2495,128.6427,601,Modern
+221,The China Plant Trait Database,NECTS09,43.73456667,127.0332833,390,Modern
+222,The China Plant Trait Database,Ningshan,33.43333333,108.4333333,1614,Modern
+223,The China Plant Trait Database,NSTEC02,34.63791667,119.23905,59,Modern
+224,The China Plant Trait Database,NSTEC03,32.0546,118.8596667,76,Modern
+225,The China Plant Trait Database,NSTEC04,30.28911667,119.4430833,299,Modern
+226,The China Plant Trait Database,NSTEC05,29.8008,121.7863667,231,Modern
+227,The China Plant Trait Database,NSTEC06,27.97516667,119.1351,294,Modern
+228,The China Plant Trait Database,NSTEC07,26.58988333,118.0536333,239,Modern
+229,The China Plant Trait Database,NSTEC08,24.40873333,116.3405667,195,Modern
+230,The China Plant Trait Database,NSTEC09,23.1704,112.5374167,240,Modern
+231,The China Plant Trait Database,NSTEC10,25.3179,110.2530833,199,Modern
+232,The China Plant Trait Database,NSTEC11,26.84195,109.6047167,390,Modern
+233,The China Plant Trait Database,NSTEC12,28.34231667,109.72545,220,Modern
+234,The China Plant Trait Database,NSTEC13,33.50096667,111.48705,449,Modern
+235,The China Plant Trait Database,NSTEC14,39.95436667,115.4215333,1253,Modern
+236,The China Plant Trait Database,Qinling Mixed Forest,33.43658889,108.4353056,1514,Modern
+237,The China Plant Trait Database,Site 1,21.93333333,101.25,560,Modern
+238,The China Plant Trait Database,Tongchuan,35.05,109.1333333,1324,Modern
+239,The China Plant Trait Database,Unholy Mt,21.97888056,101.2377361,1075,Modern
+240,The China Plant Trait Database,XBTG Rainforest,21.919125,101.2713472,502,Modern
+241,The China Plant Trait Database,Yongshou,34.81666667,108.0333333,1454,Modern
+242,The China Plant Trait Database,Zijingshan,32.05,118.83333,130,Modern
+243,Tropical Plant Traits from Borneo Database,"Sepilok Forest Reserve, Malaysian Borneo",5.16,117.9,20,Modern
+244,Tropical Rainforest Traits Database,"Inpa, Bolivia",-16.01666667,-61.06666667,NA,Modern
+245,Tropical Rainforest Traits Database,"La Chonta, Bolivia",-15.78333333,-62.91666667,400,Modern
+246,Yangambi (DR Congo) Traits Database,Yangambi: 0.76666666666666724.5166666666667470,0.766666667,24.51666667,470,Modern
+247,Yangambi (DR Congo) Traits Database,Yangambi: 0.78333333333333324.4833333333333385,0.783333333,24.48333333,385,Modern
+248,Yangambi (DR Congo) Traits Database,Yangambi: 0.78333333333333324.4833333333333425,0.783333333,24.48333333,425,Modern
+249,Yangambi (DR Congo) Traits Database,Yangambi: 0.78333333333333324.4833333333333445,0.783333333,24.48333333,445,Modern
+250,Yangambi (DR Congo) Traits Database,Yangambi: 0.78333333333333324.5166666666667460,0.783333333,24.51666667,460,Modern
+251,Yangambi (DR Congo) Traits Database,Yangambi: 0.78333333333333324.5166666666667466,0.783333333,24.51666667,466,Modern
+252,Yangambi (DR Congo) Traits Database,Yangambi: 0.81666666666666724.5166666666667430,0.816666667,24.51666667,430,Modern
+253,Yangambi (DR Congo) Traits Database,Yangambi: 0.824.4833333333333470,0.8,24.48333333,470,Modern
+254,Yangambi (DR Congo) Traits Database,Yangambi: 0.824.5166666666667420,0.8,24.51666667,420,Modern
+255,Yangambi (DR Congo) Traits Database,Yangambi: 0.824.5438,0.8,24.5,438,Modern
+256,Yangambi (DR Congo) Traits Database,Yangambi: 0.86666666666666724.45425,0.866666667,24.45,425,Modern
+257,Fossil,Badger's Nose,41.67,-120.21,0,Fossil
+258,Fossil,Baise,23.62,107.11,0,Fossil
+259,Fossil,Bilina Mine - DSH,50.57,13.67,0,Fossil
+260,Fossil,Bilina Mine - LSH,50.57,13.67,0,Fossil
+261,Fossil,Bogota,5.0767,-73.9553,0,Fossil
+262,Fossil,Bonanza,40,-109.2,0,Fossil
+263,Fossil,Bridge Creek (Cove Creek),44.9,-120.4,0,Fossil
+264,Fossil,Bridge Creek (Crooked River),44.2,-120.25,0,Fossil
+265,Fossil,Bridge Creek (Fossil),45,-120.2,0,Fossil
+266,Fossil,Bridge Creek (Iron Mountain),44.9,-120.45,0,Fossil
+267,Fossil,Bridge Creek (Painted Hills),44.6,-120.3,0,Fossil
+268,Fossil,Cerrejon,11.13,-72.58,0,Fossil
+269,Fossil,Dead Platypus,44.87195,-108.0732,0,Fossil
+270,Fossil,DMNH 1200 Castle Rock,39.3836,-104.86026,0,Fossil
+271,Fossil,DMNH 1204 Scotty's Palm,39.02042,-104.84227,0,Fossil
+272,Fossil,DMNH 2133 Kristianity,38.85249,-104.65609,0,Fossil
+273,Fossil,DMNH 2174 Upper Kristianity,38.8524948,-104.6558051,0,Fossil
+274,Fossil,DMNH 2177 Baptist Road,39.05638,-104.86166,0,Fossil
+275,Fossil,DMNH 2362 Karlis Site,39.37804,-104.00217,0,Fossil
+276,Fossil,DMNH 2687 Chopping at the Gap,38.94039,-104.70489,0,Fossil
+277,Fossil,DMNH 2699 Watermelon,39.3836,-104.86026,0,Fossil
+278,Fossil,DMNH 2731 Two Tarps to the Wind,39.3836,-104.86026,0,Fossil
+279,Fossil,DMNH 2733 Stairway to Heaven,39.3836,-104.86026,0,Fossil
+280,Fossil,DMNH 2966 Missing Hill,39.3836,-104.86026,0,Fossil
+281,Fossil,DMNH 3495 Stedillie,39.49878,-104.22282,0,Fossil
+282,Fossil,DMNH 3618 Ian's Indoctrination,39.36733333,-104.8652917,0,Fossil
+283,Fossil,DMNH 3620 Plum Creek Parkway S,39.36734,-104.86505,0,Fossil
+284,Fossil,DMNH 654 Broomfield Roadcut,39.94249,-105.09109,0,Fossil
+285,Fossil,DMNH 7124 Bishop Wall,38.84772897,-104.592413,0,Fossil
+286,Fossil,Florissant,38.95,-105.29,0,Fossil
+287,Fossil,Frauenweiler,49.26,8.7,0,Fossil
+288,Fossil,Goshen,43.94,-122.85,0,Fossil
+289,Fossil,Guaduas,5.2357,-73.8042,0,Fossil
+290,Fossil,Gumboot Mountain,45.865,-122.22,0,Fossil
+291,Fossil,Kuclin,50.53,13.79,0,Fossil
+292,Fossil,La Porte,40,-120.84,0,Fossil
+293,Fossil,Lurd Leaves,44.87568,-108.87242,0,Fossil
+294,Fossil,McAbee,50.8,-121.14,0,Fossil
+295,Fossil,Menat,46.1,2.89,0,Fossil
+296,Fossil,Messel,49.914,8.754,0,Fossil
+297,Fossil,Ojo Alamo,36.314,-108,0,Fossil
+298,Fossil,PETM,43.94508,-107.6187,0,Fossil
+299,Fossil,Ravenscrag,49.5,-109.017,0,Fossil
+300,Fossil,Renova (Beaverhead),44.91,-113.11,0,Fossil
+301,Fossil,Renova (Metzel Ranch),45.19,-112.19,0,Fossil
+302,Fossil,Renova (Ruby River),45.219,-112.1922,0,Fossil
+303,Fossil,Republic,48.47,-118.52,0,Fossil
+304,Fossil,Rott,50.7,7.17,0,Fossil
+305,Fossil,Rujada,40.67,-120.59,0,Fossil
+306,Fossil,Rusinga,-0.415,34.175,0,Fossil
+307,Fossil,Secret,9.78,39.65,0,Fossil
+308,Fossil,Seifhennersdorf,50.94,14.58,0,Fossil
+309,Fossil,Willamette,43.94,-122.85,0,Fossil
+310,Fossil,Williston Basin,46.48,-103.9,0,Fossil
+311,Fossil,Wind River Interior,43.348,-107.807,0,Fossil
+312,Fossil,Winthrop,48.6,-120.4,0,Fossil
