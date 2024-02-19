@@ -50,17 +50,17 @@ regressionp <- function (modelobject) {
 }
 
 #Read in datasheets
-fossilSpecimens <- read_csv("fossilSpecimens.csv") #Individual fossil leaf data, most has LMA info and depositional environment
-fossilHistograms <- read.csv("fossilHistograms.csv", header = FALSE, row.names = 1)
-fossilSpeciesOnly <- read_csv("fossilSpeciesOnly.csv") %>% dplyr::select(c(1:4)) %>%
+fossilSpecimens <- read_csv("data/fossilSpecimens.csv") #Individual fossil leaf data, most has LMA info and depositional environment
+fossilHistograms <- read.csv("data/fossilHistograms.csv", header = FALSE, row.names = 1)
+fossilSpeciesOnly <- read_csv("data/fossilSpeciesOnly.csv") %>% dplyr::select(c(1:4)) %>%
   mutate(logLMA = log10(MeanLMA))
-modernSpecimens <- readxl::read_xlsx("modernSpecimens.xlsx", sheet = "Data Compilation") %>% slice(-1)
+modernSpecimens <- readxl::read_xlsx("data/modernSpecimens.xlsx", sheet = "Data Compilation") %>% slice(-1)
 siteCoords <- read.csv("siteCoords.csv")
-modernSiteClimate <- read_csv("modernSiteClimate.csv")
-modernSpecimenTaxonomy <- read_csv("modernSpecimenTaxonomy.csv")
-fossilSiteClimate <- read_csv("fossilSiteClimate.csv")
-fossilMorphology <- read_csv("fossilMorphology.csv")
-fossilMorphology2 <- read_csv("fossilMorphology2.csv", skip = 1)
+modernSiteClimate <- read_csv("data/modernSiteClimate.csv")
+modernSpecimenTaxonomy <- read_csv("data/modernSpecimenTaxonomy.csv")
+fossilSiteClimate <- read_csv("data/fossilSiteClimate.csv")
+fossilMorphology <- read_csv("data/fossilMorphology.csv")
+fossilMorphology2 <- read_csv("data/fossilMorphology2.csv", skip = 1)
 
 #Clean and filter modern specimen data and calculate site means
 filteredModernLMA <- modernSpecimens %>%
