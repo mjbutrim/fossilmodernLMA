@@ -50,17 +50,17 @@ regressionp <- function (modelobject) {
 }
 
 #Read in datasheets
-fossilSpecimens <- read_csv("data/fossilSpecimens.csv") #Individual fossil leaf data, most has LMA info and depositional environment
-fossilHistograms <- read.csv("data/fossilHistograms.csv", header = FALSE, row.names = 1)
-fossilSpeciesOnly <- read_csv("data/fossilSpeciesOnly.csv") %>% dplyr::select(c(1:4)) %>%
+fossilSpecimens <- read_csv("fossilSpecimens.csv") #Individual fossil leaf data, most has LMA info and depositional environment
+fossilHistograms <- read.csv("fossilHistograms.csv", header = FALSE, row.names = 1)
+fossilSpeciesOnly <- read_csv("fossilSpeciesOnly.csv") %>% dplyr::select(c(1:4)) %>%
   mutate(logLMA = log10(MeanLMA))
-modernSpecimens <- readxl::read_xlsx("data/modernSpecimens.xlsx", sheet = "Data Compilation") %>% slice(-1)
+modernSpecimens <- readxl::read_xlsx("modernSpecimens.xlsx", sheet = "Data Compilation") %>% slice(-1)
 siteCoords <- read.csv("siteCoords.csv")
-modernSiteClimate <- read_csv("data/modernSiteClimate.csv")
-modernSpecimenTaxonomy <- read_csv("data/modernSpecimenTaxonomy.csv")
-fossilSiteClimate <- read_csv("data/fossilSiteClimate.csv")
-fossilMorphology <- read_csv("data/fossilMorphology.csv")
-fossilMorphology2 <- read_csv("data/fossilMorphology2.csv", skip = 1)
+modernSiteClimate <- read_csv("modernSiteClimate.csv")
+modernSpecimenTaxonomy <- read_csv("modernSpecimenTaxonomy.csv")
+fossilSiteClimate <- read_csv("fossilSiteClimate.csv")
+fossilMorphology <- read_csv("fossilMorphology.csv")
+fossilMorphology2 <- read_csv("fossilMorphology2.csv", skip = 1)
 
 #Clean and filter modern specimen data and calculate site means
 filteredModernLMA <- modernSpecimens %>%
@@ -194,8 +194,8 @@ quadNAM <- ggplot(data = filteredModernSites, aes(x = logLMA, y = newMAT)) + geo
   labs(y = expression("Mean Annual Temperature ("*degree*C*")"), x = expression("log10(Leaf Mass per Area (g/m"^2*"))"))
 quadMAP <- ggplot(data = filteredModernSites, aes(x = logLMA, y = log10(newMAP))) + geom_point(color = "blue") + geom_smooth(method = "lm", formula = y ~ x + I(x^2))+ geom_smooth(method = "lm", formula = y ~ x, color = "red") +  ggpp::geom_text_npc(aes(npcx = x, npcy = y, label = label, color = "red"), data = data.frame(x = 0.05, y = 0.1, label = "R^2 = 0.04")) + ggpp::geom_text_npc(aes(npcx = x, npcy = y, label = label, color = "blue"), data = data.frame(x = 0.05, y = 0.05, label = "R^2 = 0.06")) + theme_bw() +
   labs(y = "Mean Annual Precipitation (mm)", x = expression("log10(Leaf Mass per Area (g/m"^2*"))"))
-#Appendix S13
-appendixS13 <- quadNAM + quadMAP + plot_spacer() + quadRSDS + quadSeason + quadVPD + 
+#Appendix S9
+appendixS9 <- quadNAM + quadMAP + plot_spacer() + quadRSDS + quadSeason + quadVPD + 
   plot_annotation(tag_levels = 'A')
 rm(quadNAM, quadMAP, quadRSDS, quadVPD, quadSeason)
 
@@ -256,6 +256,7 @@ rsdsPlot <- ggplot() + geom_point(data = filteredModernLMA, aes(x = gridRSDS, y 
 ############3G: LMA vs CO2 (Fossil)
 co2Plot <- ggplot() + geom_point(data = filteredFossilLMA, aes(x = co2, y = MeanLMA), alpha = 0.1, size = .9) +
   geom_point(data = filteredFossilSites, aes(x = co2, y = MeanLMA), color = "red",) +
+  geom_point(data = filteredModernLMA, aes(x = 1000, y = MeanLMA), alpha = 0) +
   geom_smooth(data = filteredFossilSites, aes(x = co2, y = MeanLMA), color = "red", method = "lm", se = FALSE) +
   theme_bw() + scale_y_continuous(trans = 'log10', breaks = c(10,20,50,100,200,500)) +
   theme(axis.text.y = element_blank(),axis.ticks.y = element_blank(),axis.title.y = element_blank()) +
@@ -1103,8 +1104,8 @@ k <- ggplot(data = (subset(tempFossilLMA3, !is.na(binRatio)))) +  geom_boxplot(a
 #plot(cld(tuk))
 
 
-#AppendixS11
-appendixS11 <- plot_grid(f,g,b,c,j,e,d,k,h,a,i,NULL, align = "h", axis = "l")
+#AppendixS12
+appendixS12 <- plot_grid(f,g,b,c,j,e,d,k,h,a,i,NULL, align = "h", axis = "l")
 rm(f,g,b,c,j,e,d,k,h,a,i,marginVect)
 
 ##########6B: Evaluate TCTs within sites and clusters
@@ -1209,8 +1210,8 @@ finalTCTDataset <- neoMorphoTCT2 %>% dplyr::select(logLMA, TCT) %>% mutate(TCT =
 #maptuk <- cld(tuk)
 #par(mar = c(5,4,4,2))
 
-#AppendixS12
-appendixS12 <- ggplot(data = finalTCTDataset) + geom_boxplot(aes(x = as.character(TCT), y= 10^logLMA), fill = "grey")+
+#AppendixS13
+appendixS13 <- ggplot(data = finalTCTDataset) + geom_boxplot(aes(x = as.character(TCT), y= 10^logLMA), fill = "grey")+
   geom_point(aes(x = as.character(TCT), y = 10^logLMA)) +
   geom_text(data = tibble(`TCT` = c("A", "B", "C", "D", "E", "F", "G", "H", "K", "N", "O", "P"), 
                           text = c("a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a")), 
@@ -1438,13 +1439,13 @@ filteredModernSites3 <- filteredModernSites %>%
   na.omit() %>%
   mutate(newMAP = log10(newMAP), PrecipWettestMonth = log10(PrecipWettestMonth), PrecipDriestMonth = log10(PrecipDriestMonth+1), PrecipWettestQuarter = log10(PrecipWettestQuarter), PrecipDriestQuarter = log10(PrecipDriestQuarter), PrecipWarmestQuarter = log10(PrecipWarmestQuarter), PrecipColdestQuarter = log10(PrecipColdestQuarter))
 
-#AppendixS10
+#AppendixS11
 pca <- rda(filteredModernSites3[3:32], scale = TRUE)
 par(cex = 1)
 biplot(pca, display = c("sites", "species"), type = c("text", "points"))
 legend("topright", col = palette, lty =1, legend = c("1. Middle Leftmost", "2. Low Left", "3. Middle Left", "4. Middle Right", "5. Low Right", "6. Upper Right", "7. Middle Rightmost"))
 ordiellipse(pca, group = filteredModernSites3$clusterName, col = palette, label = FALSE, kind = "sd")
-appendixS10 <- recordPlot()
+appendixS11 <- recordPlot()
 
 ################7: Evaluate variance of clusters
 variance <- filteredModernLMA %>%
@@ -1483,8 +1484,8 @@ clusterMeanPlot <- ggplot(filteredModernSites, aes(x = clusterName, y = logLMA, 
   theme_bw() +
   theme(legend.position = "none", axis.text.x = element_text(angle = 90, hjust = 1, vjust = .5))
 
-#AppendixS9
-appendixS9 <- clusterMeanPlot + clusterVarPlot + plot_annotation(tag_levels = 'A')
+#AppendixS10
+appendixS10 <- clusterMeanPlot + clusterVarPlot + plot_annotation(tag_levels = 'A')
 rm(clusterMeanPlot, clusterVarPlot)
 
 #########Extra - print tables for appendices
